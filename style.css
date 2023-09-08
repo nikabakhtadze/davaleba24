@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: "inter";
+    src: url(inter.ttf);
+}
+.text{
+    font-family: "inter";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+}
+.input{
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    outline: none;
+}
+.icon{
+    position:absolute;
+    right:5px;
+    top:10px;
+}
+.input2{
+    border-radius: 8px;
+    border: 1px solid var(--accent-1, #D0D5DD);
+    outline:none;
+}
+.icon2{
+    position:absolute;
+    right:5px;
+    top:10px;
+}
+.button2{
+    border-radius: 8px;
+    border: 1px solid var(--accent-1, #D0D5DD);
+}
+.top{
+    color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.16px;
+}
+@media screen and (max-width: 768px){
+    .box{
+        position:absolute;
+       left:180px;
+       top:40px !important;
+    }
+    .title{
+        margin-left:10px!important;
+    }
+    .top{
+        margin-top:40px!important;
+        margin-left:-80px;
+    }
+    .password{
+        margin-left:10px!important;
+    }
+    .input{
+        margin-left:10px;
+        width:360px !important;
+    }
+    .icon{
+        position:absolute;
+        right:5px;
+        top:10px;
+    }
+    .emile{
+        margin-left:10px!important;
+    }
+    .input2{
+        margin-left:10px;
+        width:360px!important;
+    }
+    .icon2{
+        position:absolute!important;
+        right:5px !important;
+        top:10px !important;
+    }
+    .forget{
+        margin-left:100px !important;
+    }
+    button{
+        margin-left:10px !important;
+        width:390px !important;
+    }
+    .end2{
+        margin-left:30px !important;
+    }
+    .end{
+        margin-left:15px !important;
+    }
+}
